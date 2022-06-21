@@ -12,7 +12,7 @@
 ## :star2: About the Project
 This project was created in order to provide an useful and helpful JavaSciprt Enumeration for developers.
 
-You can use it in code for comparisons, for example. You also are able to generate an array of data and bind it on a select component.
+You can use it in code for comparisons and also are able to generate an array that can be easily binded in a select component, for example.
 
 <!-- Getting Started -->
 ##  :toolbox: Getting Started
@@ -23,7 +23,7 @@ You can use it in code for comparisons, for example. You also are able to genera
 Install enumeration-js with npm
 
 ```bash
-  npm install install enumeration-js
+  npm install enumeration-js
 ```
 
 <!-- Running Tests -->
@@ -61,7 +61,7 @@ Class Gender extends Enumeration {
   }
 }
 
-export default new Sexo()
+export default new Gender()
 ```
 
 ## Using a new Instance of Enumeration ...
@@ -95,7 +95,7 @@ If you need a JSON to populate a select with this options, you can call .toJSON(
 
 ```html
 <v-select
-  label="Gender"
+  label="GENDER"
   v-model="person.gender"
   :items="Gender.toJSON()"
 >
