@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/carlosalexandre1985/enumeration-js.git"
+    "url": "git+https://github.com/carlosalexandre1985/enumeration.git"
   },
   "keywords": [
     "enumeration",
@@ -18,9 +18,9 @@
   "author": "Carlos Alexandre",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/carlosalexandre1985/enumeration-js/issues"
+    "url": "https://github.com/carlosalexandre1985/enumeration/issues"
   },
-  "homepage": "https://github.com/carlosalexandre1985/enumeration-js#readme",
+  "homepage": "https://github.com/carlosalexandre1985/enumeration#readme",
   "devDependencies": {
     "@babel/cli": "^7.17.10",
     "@babel/core": "^7.18.2",
