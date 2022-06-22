@@ -37,7 +37,7 @@ First of all, you have to create your enumerations. There are two suggested ways
 2 - Using a new instance of Enumeration.
 
 
-## Extending Enumeration class ...
+## 1 - Extending Enumeration class ...
 
 
 ```javascript
@@ -55,7 +55,7 @@ Class Gender extends Enumeration {
 export default new Gender()
 ```
 
-## Using a new Instance of Enumeration ...
+## 2 - Using a new Instance of Enumeration ...
 
 
 ```javascript
