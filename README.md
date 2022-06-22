@@ -34,6 +34,8 @@ First of all, you have to create your enumerations. There are two suggested ways
 
 1 - Extending Enumeration class.
 
+or
+
 2 - Using a new instance of Enumeration.
 
 
@@ -86,8 +88,8 @@ If you need a JSON to populate a select with this options, you can call .toJSON(
 
 ```javascript
 [
-  {value: 'M', variable: 'Masculino', text: 'MASCULINO'},
-  {value: 'F', variable: 'Feminino', text: 'FEMININO'}
+  {value: 'M', variable: 'Male', text: 'MALE'},
+  {value: 'F', variable: 'Female', text: 'FEMALE'}
 ]
 ```
 
