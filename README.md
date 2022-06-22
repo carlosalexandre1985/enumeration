@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Enumeration JS</h1>
+  <h1>Enumeration</h1>
 
   <p>
     An useful concept of Enumeration in JavaScript!
@@ -12,7 +12,7 @@
 ## :star2: About the Project
 This project was created in order to provide an useful and helpful JavaSciprt Enumeration for developers.
 
-You can use it in code for comparisons and also are able to generate an array that can be easily binded in a select component, for example.
+You can use it for comparisons in code and also are able to generate an array that can be easily binded in a select component, for example.
 
 <!-- Getting Started -->
 ##  :toolbox: Getting Started
@@ -20,19 +20,10 @@ You can use it in code for comparisons and also are able to generate an array th
 <!-- Installation -->
 ### :gear: Installation
 
-Install enumeration-js with npm
+Install enumeration with npm
 
 ```bash
-  npm install enumeration-js
-```
-
-<!-- Running Tests -->
-### :test_tube: Running Tests
-
-To run tests, run the following command
-
-```bash
-  npm run test
+  npm install @jslibrary/enumeration
 ```
 
 <!-- Usage -->
@@ -50,7 +41,7 @@ First of all, you have to create your enumerations. There are two suggested ways
 
 
 ```javascript
-import { Enumeration } from 'enumeration-js'
+import { Enumeration } from '@jslibrary/enumeration'
 
 Class Gender extends Enumeration {
   constructor() {
@@ -68,7 +59,7 @@ export default new Gender()
 
 
 ```javascript
-import { Enumeration } from 'enumeration-js'
+import { Enumeration } from '@jslibrary/enumeration'
 
 const enumeration = new Enumeration()
 
@@ -91,8 +82,16 @@ if (person.gender === Gender.Female) {
 
 ```
 
-If you need a JSON to populate a select with this options, you can call .toJSON() method.
+If you need a JSON to populate a select with this options, you can call .toJSON() method. The result is something like this:
 
+```javascript
+[
+  {value: 'M', variable: 'Masculino', text: 'MASCULINO'},
+  {value: 'F', variable: 'Feminino', text: 'FEMININO'}
+]
+```
+
+Binding this JOSN on a select component the result is this:
 ```html
 <v-select
   label="GENDER"
