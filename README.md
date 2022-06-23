@@ -108,3 +108,14 @@ Binding this JOSN on a select component the result is this:
 <br/>
 
 <img src="./assets/select-open.png"/>
+
+<br>
+
+It's ok if you need to use another type of value like number, for example. This class is flexible!
+
+```javascript
+...
+  this.add(1, 'Male', 'MALE')
+  this.add(2, 'Female', 'FEMALE')
+...
+```
