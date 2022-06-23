@@ -1,3 +1,3 @@
-import Enumeration from './Enumeration'
+import { Enumeration } from './Enumeration'
 
-export default Enumeration
+export { Enumeration }
